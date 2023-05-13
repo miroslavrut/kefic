@@ -15,6 +15,9 @@ import {
   XMarkIcon,
   Cog6ToothIcon,
   ServerIcon,
+  EnvelopeOpenIcon,
+  BuildingOffice2Icon,
+  RocketLaunchIcon
 } from '@heroicons/react/24/outline'
 import { CheckIcon } from '@heroicons/react/20/solid'
 
@@ -52,19 +55,19 @@ const features = [
     name: 'Appointment Setting',
     description:
       'We help our clients book more appointments with decision-makers, allowing their sales team to focus on closing deals',
-    icon: LockClosedIcon,
+    icon: BuildingOffice2Icon,
   },
   {
     name: 'Email Campaigns',
     description:
       `We design and execute email campaigns that are tailored to our client’s target audience, resulting in higher open and response rates.`,
-    icon: ArrowPathIcon,
+    icon: EnvelopeOpenIcon,
   },
   {
     name: 'Market Research',
     description:
       `We conduct research to identify new market opportunities and gain insights into our clients' target audience.`,
-    icon: FingerPrintIcon,
+    icon: RocketLaunchIcon,
   },
 ]
 const tiers = [
