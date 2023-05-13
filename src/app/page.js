@@ -297,24 +297,52 @@ export default function Home() {
           </div>
           <div className="py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
-              <div className="mx-auto max-w-2xl text-center">
-                <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-                  Meetbusters
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600">
-                At Meetbusters, we specialize in helping businesses of all sizes and industries improve their sales performance through effective lead generation and appointment setting. Our team of experienced Business Development Representatives (BDRs) works closely with our clients to develop customized campaigns that deliver results.
-                </p>
-                <div className="mt-10 flex items-center justify-center gap-x-6">
-                <div>
-                  <PopupButton
-                      className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                      url="https://calendly.com/rutesicmiroslav"
-                      rootElement={typeof window !== "undefined" ? document.getElementById("root") : null}
-                      text="Get started"
+
+              {/* Testimonial section */}
+              {/* <div className="mx-auto mt-32 max-w-7xl sm:mt-56 sm:px-6 lg:px-8">
+                <div className="relative overflow-hidden px-6 py-20 shadow-xl sm:rounded-3xl sm:px-10 sm:py-24 md:px-12 lg:px-20">
+                  <Image
+                    className="absolute inset-0 h-full w-full object-cover"
+                    src="/burdgandy.png"
+                    alt=""
+                    width={600}
+                    height={1200}
+                  />
+
+                </div>
+              </div> */}
+
+
+              <div className="mt-16 mx-auto flow-root sm:mt-24 bg-burdgandy rounded-xl">
+                <div className="rounded-xl lg:-m-4 lg:rounded-2xl lg:p-4 flex justify-center items-center">
+                  <Image
+                    src="/burdgandy.png"
+                    alt="App screenshot"
+                    width={300}
+                    height={300}
+                    className="rounded-md "
                   />
                 </div>
-                </div>
               </div>
+
+                <div className="mx-auto max-w-2xl text-center">
+                  {/* <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+                    Meetbusters
+                  </h1> */}
+                  <p className="mt-6 text-lg leading-8 text-gray-600">
+                  At Meetbusters, we specialize in helping businesses of all sizes and industries improve their sales performance through effective lead generation and appointment setting. Our team of experienced Business Development Representatives (BDRs) works closely with our clients to develop customized campaigns that deliver results.
+                  </p>
+                  <div className="mt-10 flex items-center justify-center gap-x-6">
+                  <div>
+                    <PopupButton
+                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        url="https://calendly.com/rutesicmiroslav"
+                        rootElement={typeof window !== "undefined" ? document.getElementById("root") : null}
+                        text="Get started"
+                    />
+                  </div>
+                  </div>
+                </div>
 
             </div>
           </div>

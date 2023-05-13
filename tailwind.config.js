@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        burdgandy: '#b20844'
+      },
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans]
       },
