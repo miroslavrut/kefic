@@ -113,7 +113,7 @@ const people = [
     linkedinUrl: "https://www.linkedin.com/in/stefan-ivkovic24/",
   },
   {
-    name: "Petar Joksovic",
+    name: "Petar Joksimovic",
     role: "BSc Management",
     imageUrl: "/petar.jpg",
     twitterUrl: "#",
@@ -443,7 +443,7 @@ export default function Example() {
                     {person.role}
                   </p>
                   <ul role="list" className="mt-6 flex justify-center gap-x-6">
-                    <li>
+                    <li className="relative z-50">
                       <a
                         href={person.twitterUrl}
                         className="text-gray-400 hover:text-gray-500"
@@ -459,7 +459,7 @@ export default function Example() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="relative z-50">
                       <a
                         href={person.linkedinUrl}
                         className="text-gray-400 hover:text-gray-500"
